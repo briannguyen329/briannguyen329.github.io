@@ -252,7 +252,7 @@ main {
 
 .about {
   flex-direction: column;
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 .about__name {
@@ -270,7 +270,12 @@ main {
 
 .about__desc,
 .about__contact {
-  margin-top: 2.4em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.about__belief {
+  margin-top: 0.5em;
 }
 
 .about .link--icon {
