@@ -418,5 +418,9 @@ main {
 img.headshot {
   border-radius: 50%;
   width: 300px;
-  height: 300px;
+  height: 400px;
+}
+
+.coverbot__head {
+  width: 300px;
 }
