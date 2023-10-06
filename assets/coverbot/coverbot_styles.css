@@ -446,6 +446,5 @@ img.headshot {
 .coverbot__screen {
   width: 40%;
   height: 40%;
-  display: inline;
-  justify-content: flex-end;
+  margin-left: auto;
 }
