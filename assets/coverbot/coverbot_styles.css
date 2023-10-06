@@ -448,6 +448,6 @@ img.headshot {
 .coverbot__screen {
   width: 50%;
   height: 50%;
-  display: inline-block;
-  align-self: right;
+  display: inline;
+  justify-self: right;
 }
