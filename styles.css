@@ -411,3 +411,11 @@ main {
     display: none;
   }
 }
+
+/*========
+  images
+========*/
+img.headshot {
+  border-radius: 50%;
+  width: 500px;
+}
