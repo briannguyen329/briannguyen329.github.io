@@ -232,7 +232,7 @@ main {
 
 .section__title {
   text-align: left;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 .nav__list {
@@ -419,10 +419,14 @@ main {
   }
 }
 /*========
-  CoverBot header
+  CoverBot
 ========*/
 .left {
   display: flex;
+}
+
+.paragraph__spacing {
+  margin-top: 0.5em;
 }
 
 /*========
