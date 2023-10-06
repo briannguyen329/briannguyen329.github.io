@@ -431,6 +431,6 @@ img.headshot {
 
 .project__photo {
   margin-top: 0.8em;
-  width: 400px;
+  max-width: 80%;
   height: 240px;
 }
