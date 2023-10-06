@@ -265,6 +265,7 @@ main {
 .about__desc {
   font-size: 1rem;
   max-width: 600px;
+  float: left;
 }
 
 .about__desc,
@@ -273,11 +274,10 @@ main {
   margin-bottom: 0.5em;
 }
 
-.about__belief {
-  flex-direction: column;
-  margin-top: 0.5em;
-  font-size: 1rem;
+.about__description {
+  font-size: 0.8rem;
   max-width: 600px;
+  float: left;
 }
 
 .about .link--icon {
@@ -423,7 +423,6 @@ main {
 ========*/
 .left {
   display: flex;
-  align-items: left;
 }
 
 /*========
@@ -448,5 +447,5 @@ img.headshot {
   width: 50%;
   height: 50%;
   display: inline;
-  justify-self: right;
+  float: right;
 }
