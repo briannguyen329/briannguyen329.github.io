@@ -423,6 +423,7 @@ main {
 ========*/
 .left {
   display: flex;
+  align-items: center;
 }
 
 .paragraph__spacing {
@@ -455,5 +456,5 @@ img.headshot {
 .coverbot__screen {
   width: 40%;
   height: 40%;
-  display: flex-end;
+  align-self: right;
 }
