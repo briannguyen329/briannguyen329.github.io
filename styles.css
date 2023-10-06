@@ -417,16 +417,16 @@ main {
 ========*/
 img.headshot {
   border-radius: 50%;
-  width: 300px;
-  height: 325px;
+  width: 400px;
+  height: 425px;
 }
 
 .coverbot__head {
   width: 300px;
-  height: 300px;
+  height: 250px;
 }
 
 .sup__logo {
   width: 300px;
-  height: 300px;
+  height: 250px;
 }
