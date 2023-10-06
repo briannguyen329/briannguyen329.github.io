@@ -448,5 +448,5 @@ img.headshot {
 .coverbot__screen {
   width: 600px;
   height: 500px;
-  align-items: right;
+  float: right;
 }
