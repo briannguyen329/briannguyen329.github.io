@@ -231,9 +231,8 @@ main {
 }
 
 .section__title {
-  text-align: center;
+  text-align: left;
   margin-bottom: 1em;
-  text-transform: uppercase;
 }
 
 .nav__list {
