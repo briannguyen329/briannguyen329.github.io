@@ -430,7 +430,7 @@ main {
   margin-top: 0.5em;
 }
 
-.bullet-list ul {
+.bullet-list{
     list-style-type: disc;
     padding-left: 20px;
 }
