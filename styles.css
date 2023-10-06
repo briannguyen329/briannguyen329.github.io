@@ -418,13 +418,15 @@ main {
 img.headshot {
   border-radius: 50%;
   width: 300px;
-  height: 350px;
+  height: 325px;
 }
 
 .coverbot__head {
   width: 300px;
+  height: 300px;
 }
 
 .sup__logo {
   width: 300px;
+  height: 300px;
 }
