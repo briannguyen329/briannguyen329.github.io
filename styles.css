@@ -275,6 +275,7 @@ main {
 }
 
 .about__belief {
+  flex-direction: column;
   margin-top: 0.5em;
   font-size: 1rem;
   max-width: 600px;
