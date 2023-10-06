@@ -1,1 +1,160 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Brian Nguyen</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://briannguyen329.github.io" class="link"
+          >BN.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hello, I am <span class="about__name">Brian Nguyen.</span></h1>
+        <h2 class="about__role">An aspiring Software Developer.</h2>
+        <p class="about__desc">
+          I believe that by understanding the impact our work has on the world, 
+          we can make sure that our products, designs, and actions 
+          have a positive effect on the people around us. For these reasons, 
+          I wish to be a well-rounded developer that knows exactly how his work 
+          contributes to the company and how to design things that make life
+          easier for everyone.
+        </p>
+        <img src = "assets/headshot.jpg" alt="headshot" class="headshot">
+        <p class="about__belief">
+          I graduated from University of California, San Diego in 2023 with a 
+          Master's Degree in Computer Science, specializing in SE and AI/ML,
+          accompanied by minors in Business and Design. Below are some of my projects.
+        </p>
+
+        <div class="about__contact center">
+          <a href="assets/files/Brian_Nguyen_resume.pdf">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/brian-nguyen329"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/briannguyen329/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <a href="assets/coverbot/coverbot.html">
+          <div class="project">
+            <h3>CoverBot</h3>
+            <p class="project__description">
+              Gamification of Learning Software Testing Concepts
+            </p>
+            <img src = "assets/coverbot/head.png" class="project__photo">
+            <ul class="project__stack">
+              <li class="project__stack-item">Role: Research Assistant</li>
+            </ul>
+            <ul class="project__stack">
+              <li class="project__stack-item">Field: Computer Science Education Research</li>
+            </ul>
+          </div>
+          </a>
+
+          <a href="assets/sup/sup.html">
+          <div class="project">
+            <h3>Social University Platform</h3>
+            <p class="project__description">
+              Application to help unify university students.
+            </p>
+            <img src = "assets/sup/SUP.png" class="project__photo">
+            <ul class="project__stack">
+              <li class="project__stack-item">Role: Senior System Analyst</li>
+            </ul>
+            <ul>
+              <li class="project__stack-item">Field: iOS Mobile App Development</li>
+            </ul>
+          </div>
+          </a>
+
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:brian.nguyen329@gmail.comz">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a>
+        Created By Brian Nguyen
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
