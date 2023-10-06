@@ -419,6 +419,13 @@ main {
     display: none;
   }
 }
+/*========
+  CoverBot header
+========*/
+.left {
+  display: flex;
+  align-items: left;
+}
 
 /*========
   images
