@@ -429,6 +429,11 @@ main {
   margin-top: 0.5em;
 }
 
+.bullet-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
 /*========
   images
 ========*/
