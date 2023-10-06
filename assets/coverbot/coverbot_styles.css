@@ -423,7 +423,7 @@ main {
 ========*/
 .left {
   display: flex;
-  align-items: center;
+  align-items: left;
 }
 
 .paragraph__spacing {
