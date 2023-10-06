@@ -276,6 +276,8 @@ main {
 
 .about__belief {
   margin-top: 0.5em;
+  font-size: 1rem;
+  max-width: 600px;
 }
 
 .about .link--icon {
