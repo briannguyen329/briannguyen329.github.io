@@ -317,7 +317,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 1.2em 0;
+  margin: 0.8em 0;
 }
 
 .project__stack-item {
@@ -429,12 +429,8 @@ img.headshot {
   height: 360px;
 }
 
-.coverbot__head {
-  width: 400px;
-  height: 240px;
-}
-
-.sup__logo {
+.project__photo {
+  margin-top: 0.8em;
   width: 400px;
   height: 240px;
 }
