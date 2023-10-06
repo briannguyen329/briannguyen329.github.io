@@ -446,7 +446,7 @@ img.headshot {
   CoverBot images
 ========*/
 .coverbot__screen {
-  width: 600px;
-  height: 500px;
-  float: right;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
 }
