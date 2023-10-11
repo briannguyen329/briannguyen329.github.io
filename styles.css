@@ -227,7 +227,7 @@ main {
 }
 
 .section {
-  margin-top: 5em;
+  margin-top: 3em;
 }
 
 .section__title {
@@ -345,7 +345,7 @@ main {
 }
 
 .contact {
-  flex-direction: start;
+  flex-direction: column;
 }
 
 .footer {
@@ -376,7 +376,7 @@ main {
   }
 
   .section {
-    margin-top: 2em;
+    margin-top: 3em;
   }
 
   .nav__list {
