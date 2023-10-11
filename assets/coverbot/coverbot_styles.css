@@ -276,10 +276,10 @@ main {
 
 .about__description {
   list-style-type: square;
-  font-size: 1rem;
+  font-size: 1.5rem;
   max-width: 600px;
   float: left;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .about .link--icon {
@@ -466,6 +466,14 @@ img.headshot {
 .coverbot__center {
   max-width: 50%;
   max-height: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.coverbot__screen {
+  max-width: 60%;
+  max-height: 60%;
+  margin-top: 1em;
   display: block;
   margin: 0 auto;
 }
