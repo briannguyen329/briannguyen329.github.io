@@ -458,7 +458,8 @@ img.headshot {
 .coverbot__screen {
   max-width: 40%;
   max-height: 40%;
-  align-self: right;
+  display: block;
+  margin: 0 auto;
 }
 
 .coverbot__center {
