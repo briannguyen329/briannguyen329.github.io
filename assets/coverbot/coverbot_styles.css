@@ -456,6 +456,10 @@ img.headshot {
   text-align: center;
 }
 
+.dropshadowing
+    { width:200px;
+    box-shadow: 5px 5px 5px #999; }
+
 /*========
   CoverBot images
 ========*/
