@@ -345,7 +345,7 @@ main {
 }
 
 .contact {
-  flex-direction: column;
+  flex-direction: start;
 }
 
 .footer {
