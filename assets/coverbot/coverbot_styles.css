@@ -136,7 +136,7 @@ button {
 
 .link--icon {
   color: var(--clr-fg);
-  font-size: 3rem;
+  font-size: 3rem; /* 1.2 */
 }
 
 .btn {
