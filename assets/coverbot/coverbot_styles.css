@@ -459,3 +459,9 @@ img.headshot {
   max-height: 40%;
   align-self: right;
 }
+
+.coverbot__center {
+  max-width: 50%;
+  max-height: 50%;
+  align-items: center;
+}
