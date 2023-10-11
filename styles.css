@@ -116,7 +116,7 @@ button {
   content: "";
   display: inline;
   width: 0%;
-  height: 1em; /* 0.2 */
+  height: 0.2em; /* 0.2 */
   position: absolute;
   bottom: 0;
   background-color: var(--clr-primary);
@@ -136,7 +136,7 @@ button {
 
 .link--icon {
   color: var(--clr-fg);
-  font-size: 1.2rem; /* 1.2 */
+  font-size: 2rem; /* 1.2 */
 }
 
 .btn {
