@@ -476,8 +476,8 @@ img.headshot {
 }
 
 .coverbot__paper {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 200%;
+  max-height: 200%;
   display: block;
   margin: 1.5em auto;
 }
