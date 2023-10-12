@@ -439,7 +439,7 @@ main {
 
 .caption {
   text-align: center;
-  font-weight: var(--clr-fg-alt);
+  font-weight: bold;
 }
 
 /*========
