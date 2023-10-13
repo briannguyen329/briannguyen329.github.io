@@ -470,6 +470,10 @@ img.headshot {
     { width:200px;
     box-shadow: 10px 10px 10px #464545; }
 
+.border {
+  border:5px solid #000000;
+}
+
 /*========
   CoverBot images
 ========*/
