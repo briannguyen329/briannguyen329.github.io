@@ -452,6 +452,10 @@ main {
 .problem {
   color: red;
 }
+
+.rough__start {
+  width: 700px;
+}
 /*========
   images
 ========*/
