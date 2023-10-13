@@ -423,7 +423,7 @@ main {
   }
 }
 /*========
-  CoverBot
+  SUP
 ========*/
 .left {
   display: flex;
@@ -447,6 +447,10 @@ main {
 .tags {
   text-decoration: underline;
   font-weight: 800;
+}
+
+.problem {
+  color: red;
 }
 /*========
   images
@@ -475,8 +479,12 @@ img.headshot {
   border:3px solid #000000;
 }
 
+.inline {
+  display: inline-flex;
+  justify-self: right;
+}
 /*========
-  CoverBot images
+  SUP images
 ========*/
 .coverbot__center {
   max-width: 60%;
