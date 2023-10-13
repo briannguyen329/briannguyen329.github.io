@@ -28,10 +28,10 @@
       <nav class="nav center">
         <ul class="nav__list center">
           <li class="nav__list-item">
-            <a class="link link--nav" href="#projects">Projects</a>
+            <a class="link link--nav" href="../index.html#projects">Projects</a>
           </li>
           <li class="nav__list-item">
-            <a class="link link--nav" href="#contact">Contact</a>
+            <a class="link link--nav" href="../index.html#contact">Contact</a>
           </li>
         </ul>
 
@@ -50,95 +50,195 @@
     </header>
 
     <main>
-      <!-- About -->
-      <div class="about center">
-        <h1>Hello, I am <span class="about__name">Brian Nguyen.</span></h1>
-        <h2 class="about__role">An aspiring Software Developer.</h2>
-        <p class="about__desc">
-          I believe that by understanding the impact our work has on the world, 
-          we can make sure that our products, designs, and actions 
-          have a positive effect on the people around us. For these reasons, 
-          I wish to be a well-rounded developer that knows exactly how his work 
-          contributes to the company and how to design things that make life
-          easier for everyone.
-        </p>
-        <img src = "assets/headshot.jpg" alt="headshot" class="headshot">
-        <p class="about__belief">
-          I graduated from University of California, San Diego in 2023 with a 
-          Master's Degree in Computer Science, specializing in SE and AI/ML,
-          accompanied by minors in Business and Design. Below are some of my projects.
-        </p>
-
-        <div class="about__contact center">
-          <a href="assets/files/Brian_Nguyen_resume.pdf">
-            <span class="btn btn--outline">Resume</span>
-          </a>
-
-          <a
-            href="https://github.com/brian-nguyen329"
-            aria-label="github"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/briannguyen329/"
-            aria-label="linkedin"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-linkedin"></i>
-          </a>
-        </div>
+      <!-- CoverBot Header -->
+      <div class="about left">
+        <h1>CoverBot</h1>
+        <h2 class="about__role">Gamifying Software Testing Education</h2>
+        <ul class="about__description">
+            <li>Sept. 2019 - June 2020</li>
+            <li>Role: Research Assistant</li>
+            <li>Scope: Product Design, UI/UX Design</li>
+        </ul>
+        <!-- Image -->
+        <img class="coverbot__center" src="../assets/coverbot/coverbot_screen.png">
       </div>
 
-      <!-- Projects -->
-      <section id="projects" class="section projects">
-        <h2 class="section__title">Projects</h2>
-
-        <div class="projects__grid">
-          <a href="assets/coverbot/coverbot.html">
-          <div class="project">
-            <h3>CoverBot</h3>
-            <p class="project__description">
-              Gamification of Learning Software Testing Concepts
-            </p>
-            <img src = "assets/coverbot/head.png" class="project__photo">
-            <ul class="project__stack">
-              <li class="project__stack-item">Role: Research Assistant</li>
-            </ul>
-            <ul class="project__stack">
-              <li class="project__stack-item">Field: Computer Science Education Research</li>
-            </ul>
-          </div>
-          </a>
-
-          <a href="assets/sup/sup.html">
-          <div class="project">
-            <h3>Social University Platform</h3>
-            <p class="project__description">
-              Application to help unify university students.
-            </p>
-            <img src = "assets/sup/SUP.png" class="project__photo">
-            <ul class="project__stack">
-              <li class="project__stack-item">Role: Senior System Analyst</li>
-            </ul>
-            <ul>
-              <li class="project__stack-item">Field: iOS Mobile App Development</li>
-            </ul>
-          </div>
-          </a>
-
+      <!-- Background -->
+      <section class="section">
+        <h2 class="section__title">Background</h2>
+        <div>
+        I've been using all sorts of different technology since I was born, 
+        which is probably why my eyesight is so poor. Unfortunately, because I 
+        rely on a vast range of software and hardware for my personal and 
+        professional life, I've grown accustomed to programs, games, and 
+        applications running smoothly. However, we both know that this is 
+        rarely the case! Many people experience glitches or bugs in their 
+        software, with not a clue on how to fix them.
+        </div>
+        <div class="paragraph__spacing">
+        Although they may be minor inconveniences to our daily lives, bugs 
+        in code can be extremely dangerous elsewhere. For example, 
+        faulty software used in airplanes or banks can cause tragic accidents 
+        or dangerous data leaks. Here's exactly where the problem lies... why
+        do we have to deal with these bugs at all?
         </div>
       </section>
 
-      <!-- Contact -->
-      <section class="section contact center" id="contact">
-        <h2 class="section__title">Contact</h2>
-        <a href="mailto:brian.nguyen329@gmail.comz">
-          <span class="btn btn--outline">Email me</span>
-        </a>
+      <!-- The Problem -->
+      <section class="section">
+        <h2 class="section__title">The Problem</h2>
+        <div>
+        Here's the catch. We shouldn't have to! The importance of testing our
+        code is not emphasized enough in both the industry and in coding 
+        courses. In fact, research has shown that many professional programmers 
+        find testing to be “trivial and uninteresting”. How can we improve the 
+        quality of our code by effectively testing it before it's placed into 
+        the market? Like most things, a great idea is to tackle it at the source
+        : education.
+        </div>
       </section>
+
+      <!-- A Solution -->
+      <section class="section">
+        <h2 class="section__title">A Solution</h2>
+        <div>
+        We can utilize gamification to keep students engaged and motivated 
+        when learning about software testing techniques, which will result 
+        in better programmers, reducing the amount of bugs in our software.
+        </div>
+        <div class="paragraph__spacing">
+        To narrow our scope, we first focused on a specific sector of software 
+        testing before branching out. We chose to gamify statement coverage.
+        </div>
+        <img class="coverbot__center" src="../assets/coverbot/statement coverage.png">
+        <h4 class="caption">
+        Depiction of the testing technique known as statement coverage, 
+        which involves trying to execute every single line of code.
+        </h4>
+      </section>
+
+      <!-- Context and Process -->
+      <section class="section">
+        <h2 class="section__title">Context and Process</h2>
+        <div>
+        What brought me here was the Early Research Scholars Program at UC San Diego. 
+        I applied for this program at the end of my freshman year, when I was still 
+        scared of getting lost on campus! It was one of the greatest decisions of my 
+        college career because it was an enlightening research experience.
+        </div>
+        <div class="paragraph__spacing">
+        Through an in depth process of defining a problem, reading research articles, 
+        ideation, and testing with users, we were able to create a small game about 
+        statement coverage. The game consisted of a few gamification techniques that 
+        were rated to be the most effective, to name a few: reward system, progression, feedback.
+        </div>
+        <div class="paragraph__spacing">
+        My contribution spanned across game design, sound design, level design, 
+        ecording meeting notes, and user testing.
+        </div>
+        <div class="paragraph__spacing">
+        Given the time frame of the program, our initial game was purely on the terminal. 
+        However, it didn't really look like a game, and we decided that it just wasn't 
+        practical enough to get decent data.
+        </div>
+        <!-- Image -->
+        <img class="coverbot__center" src="../assets/coverbot/game.png">
+        <!-- Image description -->
+        <h4 class="caption">
+          Our very first iteration of trying to gamify the process of learning 
+          statement coverage (done entirely on terminal)
+        </h4>
+        <div class="paragraph__spacing">
+        We shifted toward a game with a better GUI and developed it with Unity and C#. 
+        There was definitely a time crunch, but we managed to pull it off! Through several 
+        intermediate user testing, we improved our game slowly, changing color 
+        schemes, sounds, and graphics. Here is the final version of our game.
+        </div>
+        <div class="project__stack">
+        <iframe class="coverbot__center" width="500" height="350" title="Video demo of CoverBot" src="https://www.youtube.com/embed/eKL12IDjt7w">
+        </iframe>
+        <iframe class="coverbot__center" width="500" height="350" title="Video demo of Non-Gamified version" src="https://www.youtube.com/embed/gjrSfAJnBNU">
+        </iframe>
+        </div>
+        <div class="paragraph__spacing">
+        To test the effectiveness of our game, we had to conduct surveys where participants played both 
+        the gamified version and non-gamified version of the program. The reason we had to create a 
+        non-gamified version was because we needed a control for our experiment that at least in the 
+        same scope as our game (we just took out a few gamification features)  
+        </div>
+      </section>
+      <!-- Results -->
+      <section class="section">
+        <h2 class="section__title">Results: A Small Step in the Right Directiton</h2>
+        <div class="paragraph__spacing">
+        Users stated that the game introduced a sense of urgency with understanding 
+        the concept, which made them focus and try harder. This was due to the fact 
+        that they had a health bar and they could lose the game if their inputs 
+        weren't good enough.
+        </div>
+        <div class="paragraph__spacing">
+        Users admitted that they were more engaged from the gamification aspects, 
+        but the animations and sounds could be distracting at times. It was important 
+        to find a good balance between engagement and learnability.
+        </div>
+        <div class="paragraph__spacing">
+        The metrics we decided to measure for success were met, leading us to 
+        believe that this is the right direction for further research.
+        </div>
+        <ul class="bullet-list">
+          <li>Enjoyment levels</li>
+          <li>Engagement levels</li>
+          <li>Motivation levels</li>
+          <li>How well they played the game</li>
+        </ul>
+        <div class="project__stack">
+        <img class="coverbot__center border" width="500" height="350" src="../assets/coverbot/participant enjoyment.png">
+        <img class="coverbot__center border" width="500" height="350" src="../assets/coverbot/participant engagement.png">
+        <img class="coverbot__center border" width="500" height="350" src="../assets/coverbot/performance.png">
+        </div>
+      </section>
+
+      <!-- Reflection -->
+      <section class="section">
+        <h2 class="section__title">Reflection</h2>
+        <div>
+        Before my research, I was just as guilty as everyone else when it came 
+        to testing my code. However, during our problem definition phase I 
+        learned so much about the dangers of faulty software. I believe 
+        gamification is a great tool to help motivate students to learn software 
+        esting techniques. We definitely need a more polished product with a few 
+        years of development, but I think it's a great start!
+        </div>
+        <div>
+        Some potential improvements:
+          <ul class="bullet-list">
+            <li>More gamification features</li>
+            <li>Smoother animations</li>
+            <li>Dynamic level creation</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- More Resources -->
+      <section class="section">
+        <h2 class="section__title">More Resources</h2>
+        <h3>Research Poster Overview</h3>
+        <div>Zoom in on any feature of the poster <span><a class="tags" href="../assets/coverbot/files/Gamification of Software Testing Poster.pdf">here</a></span></div>
+        <embed type="application/pdf" class="coverbot__paper" src="../assets/coverbot/files/Gamification of Software Testing Poster.pdf">
+        <h3>Research Paper</h3>
+        <div>
+        With an IEEE membership, you can view the full text <span><a class="tags" href="https://ieeexplore.ieee.org/document/9206224">here</a></span>
+        </div>
+        <div class="paragraph__spacing">
+        Or you can view a non-camera ready version <span><a class="tags" href="../assets/coverbot/files/Gamifying_the_Learning_of_Testing_Coverage.pdf">here</a></span>
+        </div>
+        <div>
+        <a href="https://ieeexplore.ieee.org/document/9206224">
+        <img class="coverbot__center border" src="../assets/coverbot/research paper blur.png">
+        </a>
+        </div>
+      </section>
+
     </main>
 
     <footer class="footer">
