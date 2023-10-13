@@ -24,6 +24,7 @@ body {
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
+  font-size: 1.2rem;
 }
 
 .light {
@@ -323,7 +324,7 @@ main {
 .project__stack-item {
   margin: 0.3em;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: var(--clr-fg-alt);
 }
 

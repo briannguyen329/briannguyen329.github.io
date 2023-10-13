@@ -24,7 +24,7 @@ body {
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .light {
@@ -79,7 +79,7 @@ h3 {
 
 h4 {
   font-size: 0.8rem;
-  color: darkgray;
+  color: rgb(49, 49, 49);
 }
 
 ul {
