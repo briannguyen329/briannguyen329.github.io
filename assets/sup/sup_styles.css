@@ -493,6 +493,11 @@ img.headshot {
   margin: 1.5em auto;
 }
 
+.sup__briefing {
+  max-width: 50%;
+  max-height: 50%;
+}
+
 .coverbot__paper {
   width: 1100px;
   height: 850px;
