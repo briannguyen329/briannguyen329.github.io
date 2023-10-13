@@ -445,7 +445,7 @@ main {
 
 .tags {
   text-decoration: underline;
-  font-weight: 500;
+  font-weight: 800;
 }
 /*========
   images
@@ -485,8 +485,8 @@ img.headshot {
 }
 
 .coverbot__paper {
-  max-width: 200%;
-  max-height: 200%;
+  width: 1100px;
+  height: 600px;
   display: block;
   margin: 1.5em auto;
 }
