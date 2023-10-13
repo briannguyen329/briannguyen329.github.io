@@ -481,7 +481,7 @@ img.headshot {
 
 .inline {
   display: inline-flex;
-  justify-self: right;
+  float: right;
 }
 /*========
   SUP images
