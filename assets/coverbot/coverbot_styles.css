@@ -103,7 +103,6 @@ button {
 /*===================
   buttons and links
 ===================*/
-
 .link {
   color: var(--clr-primary);
   padding: 0 0 0.3em 0;
@@ -444,6 +443,10 @@ main {
   text-emphasis-color: #464646 !important;
 }
 
+.tags {
+  text-decoration: underline;
+  font-weight: 500;
+}
 /*========
   images
 ========*/
