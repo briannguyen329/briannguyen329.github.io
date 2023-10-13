@@ -497,9 +497,9 @@ img.headshot {
   max-height: 50%;
 }
 
-.coverbot__paper {
-  width: 1100px;
-  height: 850px;
+.sup__pdf {
+  width: 500px;
+  height: 600px;
   display: block;
   margin: 1.5em auto;
 }
