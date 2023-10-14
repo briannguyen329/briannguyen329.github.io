@@ -447,7 +447,7 @@ main {
 
 .tags {
   text-decoration: underline;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .problem {
@@ -514,6 +514,6 @@ img.headshot {
   max-width: 60%;
   max-height: 50%;
   display: block;
-  margin: 1.5em auto;
+  margin: 1em auto;
 }
 
